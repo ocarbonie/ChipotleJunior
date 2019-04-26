@@ -19,27 +19,30 @@ public class Main {
         ArrayList<String>burritoAssembler = new ArrayList<>();
         Random rnd = new Random();
 
-        //Let's get the rice option
-        burritoAssembler.add(riceOptions());
-
-        //Let's get the meat option
-        burritoAssembler.add(meatOptions());
-
-        //Let's get the beans option
-        burritoAssembler.add(beansOptions());
-
-        //Let's get the Salsa option
-        burritoAssembler.add(salsaOptions());
-
-        //Let's get the Veggies option
-        burritoAssembler.add(veggiesOptions());
+//        //Let's get the rice option
+//        burritoAssembler.add(riceOptions());
+//
+//        //Let's get the meat option
+//        burritoAssembler.add(meatOptions());
+//
+//        //Let's get the beans option
+//        burritoAssembler.add(beansOptions());
+//
+//        //Let's get the Salsa option
+//        burritoAssembler.add(salsaOptions());
+//
+//        //Let's get the Veggies option
+//        burritoAssembler.add(veggiesOptions());
 
         //for visual purposes
-        for(String m : burritoAssembler){
-            System.out.print(m + ", ");
+//        for(String m : burritoAssembler){
+////            System.out.print(m + " ");
+////        }
+        //Let's first create a string
+        System.out.print(riceOptions() +", " + meatOptions() + ", " + beansOptions()+ ", " + salsaOptions()+ ", " +
+                veggiesOptions());
         }
 
-    }
     public static String riceOptions(){
         String [] riceArr = {"white rice", "brown rice", "no rice"};
         Random rnd = new Random();
@@ -53,7 +56,7 @@ public class Main {
         }
 
     public static String meatOptions(){
-        String [] meatArr = {"chicken meat","steak meat","carnidas meat","chorizo meat","sofritas meat","veggies"};
+        String [] meatArr = {"chicken meat","steak meat","carnidas meat","chorizo meat","sofritas meat","veggies no meat"};
         Random rnd = new Random();
 
         //Random number selector
